@@ -51,13 +51,8 @@ def sidebar_footer() -> rx.Component:
     return rx.hstack(
         rx.spacer(),
         rx.link(
-            rx.text("Docs"),
-            href="https://reflex.dev/docs/getting-started/introduction/",
-            style=styles.link_style,
-        ),
-        rx.link(
-            rx.text("Blog"),
-            href="https://reflex.dev/blog/",
+            rx.text("Home"),
+            href="/",
             style=styles.link_style,
         ),
         width="100%",
